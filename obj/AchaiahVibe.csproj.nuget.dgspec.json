@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj": {}
+    "C:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj": {}
   },
   "projects": {
-    "c:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj": {
+    "C:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj",
+        "projectUniqueName": "C:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj",
         "projectName": "AchaiahVibe",
-        "projectPath": "c:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj",
+        "projectPath": "C:\\workspace\\AchaiahVibe\\AchaiahVibe.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\workspace\\AchaiahVibe\\obj\\",
+        "outputPath": "C:\\workspace\\AchaiahVibe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
