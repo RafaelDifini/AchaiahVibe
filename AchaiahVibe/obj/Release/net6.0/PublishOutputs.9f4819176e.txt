@@ -1,0 +1,5 @@
+C:\workspace\AchaiahVibe\bin\Release\net6.0\publish\AchaiahVibe.exe
+C:\workspace\AchaiahVibe\bin\Release\net6.0\publish\AchaiahVibe.dll
+C:\workspace\AchaiahVibe\bin\Release\net6.0\publish\AchaiahVibe.deps.json
+C:\workspace\AchaiahVibe\bin\Release\net6.0\publish\AchaiahVibe.runtimeconfig.json
+C:\workspace\AchaiahVibe\bin\Release\net6.0\publish\AchaiahVibe.pdb

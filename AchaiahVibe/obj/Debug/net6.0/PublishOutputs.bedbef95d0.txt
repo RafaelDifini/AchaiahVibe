@@ -1,0 +1,5 @@
+C:\workspace\AchaiahVibe\workspaceAchaiahVibePOO\AchaiahVibe.exe
+C:\workspace\AchaiahVibe\workspaceAchaiahVibePOO\AchaiahVibe.dll
+C:\workspace\AchaiahVibe\workspaceAchaiahVibePOO\AchaiahVibe.deps.json
+C:\workspace\AchaiahVibe\workspaceAchaiahVibePOO\AchaiahVibe.runtimeconfig.json
+C:\workspace\AchaiahVibe\workspaceAchaiahVibePOO\AchaiahVibe.pdb
