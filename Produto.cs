@@ -30,7 +30,20 @@ namespace AchaiahVibe
         public double lucro;
         public double valorFinalProduto;
 
+        public void CalculaProduto()
+        {
+            Console.WriteLine("Digite o nome do produto a ser calculado: ");
+            this.nomeProduto = Console.ReadLine();
+            Console.WriteLine($"Qual valor de produçao de {nomeProduto}: ");
+            this.valorProducao = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor da hora trabalhada: ");
+            this.horaTrabalho = double.Parse(Console.ReadLine());
 
+            this.valorProduto = valorProducao + horaTrabalho;
+            Console.WriteLine($"O valor do produto é {valorProduto}");
+
+
+        }
 
         public void AplicaPorcentagem()
         {
@@ -48,20 +61,7 @@ namespace AchaiahVibe
 
         }
 
-        public void CalculaProduto()
-        {
-            Console.WriteLine("Digite o nome do produto a ser calculado: ");
-            this.nomeProduto = Console.ReadLine();
-            Console.WriteLine($"Qual valor de produçao de {nomeProduto}: ");
-            this.valorProducao = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o valor da hora trabalhada: ");
-            this.horaTrabalho = double.Parse(Console.ReadLine());
 
-            this.valorProduto = valorProducao + horaTrabalho;
-            Console.WriteLine($"O valor do produto é {valorProduto}");
-
-
-        }
 
     }
 
