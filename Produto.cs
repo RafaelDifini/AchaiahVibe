@@ -58,10 +58,10 @@ namespace AchaiahVibe
                 using var sw = File.CreateText(path);
                 sw.WriteLine($"Valor da produção de {this.nomeProduto}: {this.valorProducao.ToString("C")}");
                 sw.WriteLine($"Valor hora trabalho: {this.horaTrabalho.ToString("C")}");
-                sw.WriteLine($"Percentual de lucro: {this.percentualLucro.ToString("P01")}");
+                sw.WriteLine($"Percentual de lucro: {this.percentualLucro.ToString()}" + "%");
                 sw.WriteLine($"Valor do produto: {this.valorProduto.ToString("C")}");
-                sw.WriteLine(this.lucro.ToString("C"));
-                sw.WriteLine(this.valorFinalProduto.ToString("C"));
+                sw.WriteLine($"Lucro é de: {this.lucro.ToString("C")}");
+                sw.WriteLine($"E o valor final: {this.valorFinalProduto.ToString("C")}");
             }
         }
 

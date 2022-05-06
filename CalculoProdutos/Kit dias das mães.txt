@@ -1,0 +1,6 @@
+Valor da produção de Kit dias das mães: R$ 45,00
+Valor hora trabalho: R$ 15,00
+Percentual de lucro: 40%
+Valor do produto: R$ 60,00
+Lucro é de: R$ 24,00
+E o valor final: R$ 84,00
