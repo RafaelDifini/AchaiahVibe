@@ -2,26 +2,6 @@ namespace AchaiahVibe
 {
     public class Produto
     {
-        public Produto(string nomeProduto,
-        double valorProducao,
-        double horaTrabalho,
-        double valorProduto,
-        double percentualLucro,
-        double lucro,
-        double valorFinalProduto)
-        {
-            this.nomeProduto = nomeProduto;
-            this.valorProduto = valorProduto;
-            this.valorProducao = valorProducao;
-            this.horaTrabalho = horaTrabalho;
-            this.percentualLucro = percentualLucro;
-            this.lucro = lucro;
-            this.valorFinalProduto = valorFinalProduto;
-
-        }
-        public Produto()
-        { }
-
         public string nomeProduto;
         public double valorProduto;
         public double valorProducao;
@@ -59,6 +39,30 @@ namespace AchaiahVibe
             Console.WriteLine("Aperte [ENTER] para calcular outro produto...");
             Console.ReadLine();
 
+        }
+        public void CriarDiretorioProdutos()
+        {
+            var path = Path.Combine(Environment.CurrentDirectory, "CalculoProdutos");
+            if (!Directory.Exists(path))
+            {
+                var pastaArquivos = Directory.CreateDirectory(path);
+            }
+
+        }
+        public void CriarArquivo()
+        {
+            var nomeArquivo = this.nomeProduto + ".txt";
+            var path = Path.Combine(@"C:\\workspace\AchaiahVibe\CalculoProdutos", nomeArquivo);
+            if (!File.Exists(path))
+            {
+                using var sw = File.CreateText(path);
+                sw.WriteLine($"Valor da produção de {this.nomeProduto}: {this.valorProducao.ToString("C")}");
+                sw.WriteLine($"Valor hora trabalho: {this.horaTrabalho.ToString("C")}");
+                sw.WriteLine($"Percentual de lucro: {this.percentualLucro.ToString("P01")}");
+                sw.WriteLine($"Valor do produto: {this.valorProduto.ToString("C")}");
+                sw.WriteLine(this.lucro.ToString("C"));
+                sw.WriteLine(this.valorFinalProduto.ToString("C"));
+            }
         }
 
 

@@ -11,6 +11,8 @@ namespace AchaiahVibe
 
             produto.CalculaProduto();
             produto.AplicaPorcentagem();
+            produto.CriarDiretorioProdutos();
+            produto.CriarArquivo();
             Console.Clear();
             produto.CalculaProduto();
         }

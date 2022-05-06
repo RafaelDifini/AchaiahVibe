@@ -1,0 +1,6 @@
+Valor da produção de vela 2: R$ 10,00
+Valor hora trabalho: R$ 29,00
+Percentual de lucro: 18
+Valor do produto: R$ 39,00
+R$ 7,02
+R$ 46,02
